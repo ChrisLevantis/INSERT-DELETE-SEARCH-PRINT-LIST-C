@@ -57,9 +57,6 @@ void insertAfter2(struct node **head, int key, int dataInserted) // kai edo den 
 
     new_node->next = temp->next;
     temp->next = new_node;
-
-    //new_node->next = prev_node->next; // SOS --> ΜΗΝ ΤΑ ΒΑΛΕΙΣ ΑΝΑΠΟΔΑ...
-    //prev_node->next = new_node;
 }
 
 void append(struct node **head, int dataInserted) // εδω ή θα το βαλεις στο ΤΕΛΟΣ ή θα το βαλεις στην αρχη (με την προυπόθεση ότι η λίστα είναι άδεια) // ΠΡΟΣΕΧΕ ΚΑΙ ΒΑΛΕ ΔΥΟ **
